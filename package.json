@@ -1,0 +1,58 @@
+{
+  "name": "next-react-s3-console",
+  "version": "1.0.0",
+  "description": "A modern, intuitive AWS S3 file manager with a beautiful web interface. Securely connect your AWS account and effortlessly organize, browse, and manage your cloud storage.",
+  "keywords": [
+    "aws-s3",
+    "file-manager",
+    "cloud-storage",
+    "s3-browser",
+    "s3-dashboard",
+    "nextjs",
+    "react",
+    "tailwindcss"
+  ],
+  "author": "Subham Singh (subham-proj)",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "lint:fix": "next lint --fix",
+    "clean": "rm -rf .next out",
+    "analyze": "ANALYZE=true npm run build",
+    "test:performance": "node scripts/test-performance.js",
+    "test:search": "node scripts/test-search.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.856.0",
+    "@aws-sdk/s3-request-presigner": "^3.850.0",
+    "@clerk/nextjs": "^6.27.1",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "groq-sdk": "^0.29.0",
+    "jszip": "^3.10.1",
+    "lodash": "^4.17.21",
+    "lucide-react": "^0.526.0",
+    "next": "15.4.4",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "tailwind-merge": "^3.3.1",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9",
+    "eslint-config-next": "15.4.4",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "homepage": "https://next-react-s3-console.xyz"
+}
