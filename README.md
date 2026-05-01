@@ -156,3 +156,5 @@ scripts/          # Local API/performance test scripts
 - Stored AWS config is kept in browser localStorage (base64-encoded JSON).
 - AI summaries enforce size/type limits (for example, large files are rejected/truncated).
 - Some folder operations can be expensive on very large prefixes due to iterative copy/delete/list patterns.
+
+## End
